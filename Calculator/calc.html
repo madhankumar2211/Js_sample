@@ -1,7 +1,62 @@
-
 <html>
     <head>
-        <title>SIMPLE CALCULATOR</title>
-        <script src="calc.js"></script>
+        <title>
+            SIMPLE CALCULATOR
+        </title>
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+      />
     </head>
+    <body>
+       <center><br><table border=3>
+
+           <tr><td colspan="3"><input type="text" id="result" disabled="true" /> </td>
+               <td><input class="btn btn-primary btn-block" type="button" value="C" onclick="clr()"/></td></tr>
+
+            <tr>
+                <td><input class="btn btn-primary btn-block" type="button" value="1" onclick="num('1')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="2" onclick="num('2')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="3" onclick="num('3')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="/" onclick="num('/')"/></td></tr>
+
+            <tr>
+                <td><input class="btn btn-primary btn-block" type="button" value="4" onclick="num('4')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="5" onclick="num('5')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="6" onclick="num('6')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="*" onclick="num('*')"/></td></tr>
+
+            <tr>
+                <td><input class="btn btn-primary btn-block" type="button" value="7" onclick="num('7')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="8" onclick="num('8')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="9" onclick="num('9')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="-" onclick="num('-')"/></td></tr>
+
+            <tr>
+                <td><input class="btn btn-primary btn-block" type="button" value="." onclick="num('.')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="0" onclick="num('0')"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="=" onclick="res()"/></td>
+                <td><input class="btn btn-primary btn-block" type="button" value="+" onclick="num('+')"/></td></tr>
+       </table></center>
+
+       <script src=calc.js></script>
+
+       <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+    </body>
 </html>
