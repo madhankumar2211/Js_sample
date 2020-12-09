@@ -32,7 +32,7 @@ fetchUsers = () => {
           console.log(user);
           document.getElementById(
             "user"
-          ).innerHTML = `<div class="card border-primary mb-3" style="max-width: 18rem;">
+          ).innerHTML = `<div class="card border-primary mb-3" style="max-width: 25rem;">
           <div class="card-body">
             <h5 class="card-title">${user[0].name}</h5>
             <h6 class="card-subtitle mb-2 text-muted">${user[0].website}</h6>
