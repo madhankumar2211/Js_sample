@@ -5,5 +5,6 @@ for (let i = 0; i < arr.length; i++)
     sum += arr[i];
     product *= arr[i];
 }
-console.log('Sum = '+ sum + '\t Product = ' + product )
+console.log(`Sum = ${sum}  Product = ${product}` )
+document.write('Sum = '+ sum + '\t Product = ' + product )
     
